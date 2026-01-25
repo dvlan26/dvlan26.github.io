@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lan Duo - Academic Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Language Switcher -->
+        <div class="language-switcher">
+            <button id="en-btn" class="lang-btn active">EN</button>
+            <button id="zh-btn" class="lang-btn">中文</button>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html" class="nav-link active" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="publication.html" class="nav-link" data-en="Publications" data-zh="学术论文">Publications</a></li>
+                <li><a href="opensource.html" class="nav-link" data-en="Open-Source Project" data-zh="开源项目">Open-Source Project</a></li>
+                <li><a href="awards.html" class="nav-link" data-en="Awards, Grant and Funding" data-zh="奖项及研究经费">Awards, Grant and Funding</a></li>
+                <li><a href="review.html" class="nav-link" data-en="Reviews" data-zh="审稿">Reviews</a></li>
+                <!-- <li><a href="talks.html" class="nav-link" data-en="Invited Talks" data-zh="受邀演讲">Invited Talks</a></li> -->
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Left Sidebar -->
+            <aside class="sidebar">
+                <div class="profile-photo">
+                    <img src="images/profile.jpg" alt="Lan Duo">
+                </div>
+                <div class="profile-info">
+                    <h1 class="name" data-en="Lan Duo(Dvlan in Mongolian)" data-zh="Lan Duo(Dvlan in Mongolian)">Lan Duo(Dvlan in Mongolian)</h1>
+                    <p class="title" data-en="UG std.<br>AI4S Researcher<br>Seeking for phd position" data-zh="科学智能开发者">AI4S Researcher</p>
+                    <p class="institution">
+                        <a href="https://www.imu.edu.cn/" target="_blank" data-en="Inner Mongolia University" data-zh="内蒙古大学">Inner Mongolia University</a>
+                    </p>
+                    <p class="email">
+                        <a href="dvlan26(at)outlook(dot)com">dvlan26(at)outlook(dot)com</a>
+                        <!-- <br>
+                        <a href="mailto:jiayinjunharold@gmail.com">jiayinjunharold@gmail.com</a> -->
+                    </p>
+                    <div class="links">
+                        <a href="https://github.com/dvlan26" target="_blank" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=AaxM8v0AAAAJ" target="_blank" class="social-link" title="Google Scholar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Right Content -->
+            <main class="content">
+                <!-- About Section -->
+                <section class="section" id="about">
+                    <h2 class="section-title" data-en="About" data-zh="个人简介">About</h2>
+                    <p class="section-content" 
+                       data-en="During undergrad, I was extremely grateful to work with <a href='https://scholar.google.com/citations?user=M0JCPS4AAAAJ&hl=en'>Prof. Changyan Li(IMU)</a>, <a href='https://orcid.org/0000-0001-9772-8572'>Prof. Jinlu He(IMU)</a>, <a href='https://orcid.org/0000-0001-5195-0231'>Prof. Xiaomin Kang(IMU)</a> and <a href='https://github.com/sherrylixuecheng'>Prof. Lixue Cheng(HKUST)</a>, I couldn’t appreciate their invaluable insights and support more."
+                       data-zh="在本科期间，我非常感激能与 <a href='https://scholar.google.com/citations?user=M0JCPS4AAAAJ&hl=en'>李常艳教授 (内蒙古大学)</a>、<a href='https://orcid.org/0000-0001-9772-8572'>贺进禄教授 (内蒙古大学)</a>、<a href='https://orcid.org/0000-0001-5195-0231'>康晓敏教授 (内蒙古大学)</a>以及 <a href='https://github.com/sherrylixuecheng'>程立雪教授 (香港科技大学)</a> 共同开展工作。我对他们提供的宝贵见解和支持感激不尽。">
+                       
+                       During undergrad, I was extremely grateful to work with 
+                       <a href="https://scholar.google.com/citations?user=M0JCPS4AAAAJ&hl=en">Prof. Changyan Li(IMU)</a>, 
+                       <a href="https://orcid.org/0000-0001-9772-8572">Prof. Jinlu He(IMU)</a>, 
+                       <a href="https://orcid.org/0000-0001-5195-0231">Prof. Xiaomin Kang(IMU)</a> and 
+                       <!-- <a href="https://scholar.google.com/citations?user=__xMI5sAAAAJ&hl=en">Prof. Liya Li(Université de Sherbrooke)</a>, 
+                       <a href="https://kunyuan827.github.io/">Prof. Kun Yuan(Peking University)</a>, 
+                       <a href="https://gitee.com/yuheng_wang">Dr. Yuheng Wang(HUAWEI)</a>, 
+                       <a href="https://scholar.google.com/citations?user=1neVsLcAAAAJ&hl=en&oi=ao">Prof. Hua-Xin Peng(Zhejiang University)</a>, -->
+                       <a href="https://scholar.google.com/citations?hl=en&user=hy_oauIAAAAJ">Prof. Lixue Cheng(HKUST)</a>
+                       <!-- and I am deeply grateful for the opportunity to have served as a research intern twice at 
+                       <a href="https://environ-chem.lab.westlake.edu.cn/index.htm">Analysis and Degradation of Emerging Contaminants Lab</a> 
+                       at Westlake University supervised by 
+                       <a href="https://scholar.google.com/citations?user=PNVFltwAAAAJ&hl=en&oi=ao">Prof. Yanyan Zhang(Westlake University)</a> 
+                       and collaborated with 
+                       <a href="https://scholar.google.com/citations?user=zQckibQAAAAJ&hl=en">Prof. Ye Huang(East China Normal University)</a>.  -->
+                       I couldn’t appreciate their invaluable insights and support more.
+                    </p>
+                    <!-- <p class="section-content" data-en="I am a Postdoctoral Researcher at THU-AIR and a Neuroscience PhD graduate from the IDG/McGovern Institute for Brain Research, Tsinghua University. Driven by a passion for <span class='highlight'>AI4Science</span>, my research focuses on using unsupervised learning and synthetic data to solve complex pharmaceutical and biological problems. See more about me via <a href='timeline.html'>Timeline</a>" data-zh="清华智能产业研究院博士后，清华麦戈文脑科学研究中心神经科学博士。目前深耕 <span class='highlight'>AI4Science</span> 领域，专注于通过无监督学习和合成数据探索前沿的生物医药课题。欢迎通过我的 <a href='timeline.html'>时间线</a> 来了解更多。">
+                        I am a Postdoctoral Researcher at THU-AIR and a Neuroscience PhD graduate from the IDG/McGovern Institute for Brain Research, Tsinghua University. Driven by a passion for <span class='highlight'>AI4Science</span>, my research focuses on using unsupervised learning and synthetic data to solve complex pharmaceutical and biological problems. See more about me via <a href='timeline.html'>Timeline</a>
+                    </p> -->
+                    <!-- <p class="section-content" 
+                       data-en="During undergrad, I was extremely grateful to work with <a href='https://scholar.google.com/citations?user=M0JCPS4AAAAJ&hl=en'>Prof. Changyan Li(IMU)</a>, <a href='https://orcid.org/0000-0001-9772-8572'>Prof. Jinlu He(IMU)</a>, <a href='https://orcid.org/0000-0001-5195-0231'>Prof. Xiaomin Kang(IMU)</a>, <a href='https://scholar.google.com/citations?user=__xMI5sAAAAJ&hl=en'>Prof. Liya Li(Université de Sherbrooke)</a>, <a href='https://kunyuan827.github.io/'>Prof. Kun Yuan(Peking University)</a>, <a href='https://gitee.com/yuheng_wang'>Dr. Yuheng Wang(HUAWEI)</a>, <a href='https://scholar.google.com/citations?user=1neVsLcAAAAJ&hl=en&oi=ao'>Prof. Hua-Xin Peng(Zhejiang University)</a>, <a href="https://github.com/sherrylixuecheng">Prof. Lixue Cheng(HKUST)</a> and I couldn't appreciate to being a research Intern twice at <a href='https://environ-chem.lab.westlake.edu.cn/index.htm'>Analysis and Degradation of Emerging Contaminants Lab</a> at Westlake University supervised by <a href='https://scholar.google.com/citations?user=PNVFltwAAAAJ&hl=en&oi=ao'>Prof. Yanyan Zhang(Westlake University)</a> and collabrated with <a href='https://scholar.google.com/citations?user=zQckibQAAAAJ&hl=en'>Prof. Ye Huang(East China Normal University)</a>. I couldn’t appreciate their invaluable insights and support more." 
+                       <!-- data-zh=""> -->
+                       <!-- data-zh="在本科期间，我非常感激能与 <a href='https://scholar.google.com/citations?user=M0JCPS4AAAAJ&hl=en'>李常艳教授 (内蒙古大学)</a>、<a href='https://orcid.org/0000-0001-9772-8572'>贺进禄教授 (内蒙古大学)</a>、<a href='https://orcid.org/0000-0001-5195-0231'>康晓敏教授 (内蒙古大学)</a>、<a href='https://scholar.google.com/citations?user=__xMI5sAAAAJ&hl=en'>李利亚教授 (舍布鲁克大学)</a>、<a href='https://kunyuan827.github.io/'>袁坤教授 (北京大学)</a>、<a href='https://gitee.com/yuheng_wang'>王宇衡博士 (华为)</a>、<a href='https://scholar.google.com/citations?user=1neVsLcAAAAJ&hl=en&oi=ao'>彭華新教授 (浙江大学)</a> 以及 <a href="https://github.com/sherrylixuecheng">程立雪教授 (香港科技大学)</a> 共同开展工作。同时，我也非常荣幸能在西湖大学 <a href='https://environ-chem.lab.westlake.edu.cn/index.htm'>新污染物分析与降解实验室</a> 担任两次研究实习生，在 <a href='https://scholar.google.com/citations?user=PNVFltwAAAAJ&hl=en&oi=ao'>张岩岩教授 (西湖大学)</a> 的指导下学习，并与 <a href='https://scholar.google.com/citations?user=zQckibQAAAAJ&hl=en'>黄晔教授 (华东师范大学)</a> 合作。我对他们提供的宝贵见解和支持感激不尽。"> -->
+                        <!-- During undergrad, I was extremely grateful to work with 
+                        <a href="https://scholar.google.com/citations?user=M0JCPS4AAAAJ&hl=en">Prof. Changyan Li(IMU)</a>, 
+                        <a href="https://orcid.org/0000-0001-9772-8572">Prof. Jinlu He(IMU)</a>, 
+                        <a href="https://orcid.org/0000-0001-5195-0231">Prof. Xiaomin Kang(IMU)</a>, 
+                        <a href="https://scholar.google.com/citations?user=__xMI5sAAAAJ&hl=en">Prof. Liya Li(Université de Sherbrooke)</a>, 
+                        <a href="https://kunyuan827.github.io/">Prof. Kun Yuan(Peking University)</a>, 
+                        <a href="https://gitee.com/yuheng_wang">Dr. Yuheng Wang(HUAWEI)</a>, 
+                        <a href="https://scholar.google.com/citations?user=1neVsLcAAAAJ&hl=en&oi=ao">Prof. Hua-Xin Peng(Zhejiang University)</a>,
+                        <a href="https://github.com/sherrylixuecheng">Prof. Lixue Cheng(HKUST)</a>
+                        and I couldn't appreciate to being a research Intern twice at 
+                        <a href="https://environ-chem.lab.westlake.edu.cn/index.htm">Analysis and Degradation of Emerging Contaminants Lab</a> 
+                        at Westlake University supervised by 
+                        <a href="https://scholar.google.com/citations?user=PNVFltwAAAAJ&hl=en&oi=ao">Prof. Yanyan Zhang(Westlake University)</a> 
+                        and collabrated with 
+                        <a href="https://scholar.google.com/citations?user=zQckibQAAAAJ&hl=en">Prof. Ye Huang(East China Normal University)</a>. 
+                        I couldn’t appreciate their invaluable insights and support more.
+                    </p> --> 
+                    <!-- <p class="section-content" data-en="During undergrad, I was extremely grateful to work with <a href="https://scholar.google.com/citations?user=M0JCPS4AAAAJ&hl=en">Prof. Changyan Li(IMU)</a>, <a herf="https://orcid.org/0000-0001-9772-8572">Prof. Jinlu He(IMU)</a>, <a herf="https://orcid.org/0000-0001-5195-0231">Prof. Xiaomin Kang(IMU)</a>, <a herf="https://scholar.google.com/citations?user=__xMI5sAAAAJ&hl=en">Prof. Liya Li(Université de Sherbrooke)</a>, <a herf="https://kunyuan827.github.io/">Prof. Kun Yuan(Peking University)</a>, <a herf="https://gitee.com/yuheng_wang">Dr. Yuheng Wang(HUAWEI)</a>, <a herf="https://scholar.google.com/citations?user=1neVsLcAAAAJ&hl=en&oi=ao">Prof. Hua-Xin Peng(Zhejiang University)</a> and I couldn't appreciate to being a research Intern twice at <a herf="https://environ-chem.lab.westlake.edu.cn/index.htm">Analysis and Degradation of Emerging Contaminants Lab</a> at Westlake University supervised by <a herf="https://scholar.google.com/citations?user=PNVFltwAAAAJ&hl=en&oi=ao">Prof. Yanyan Zhang(Westlake University)</a> and collabrated with <a herf="https://scholar.google.com/citations?user=zQckibQAAAAJ&hl=en">Prof. Ye Huang(East China Normal University)</a>. I couldn’t appreciate their invaluable insights and support more. " data-zh="">
+                        During undergrad, I was extremely grateful to work with <a href="https://scholar.google.com/citations?user=M0JCPS4AAAAJ&hl=en">Prof. Changyan Li(IMU)</a>, <a herf="https://orcid.org/0000-0001-9772-8572">Prof. Jinlu He(IMU)</a>, <a herf="https://orcid.org/0000-0001-5195-0231">Prof. Xiaomin Kang(IMU)</a>, <a herf="https://scholar.google.com/citations?user=__xMI5sAAAAJ&hl=en">Prof. Liya Li(Université de Sherbrooke)</a>, <a herf="https://kunyuan827.github.io/">Prof. Kun Yuan(Peking University)</a>, <a herf="https://gitee.com/yuheng_wang">Dr. Yuheng Wang(HUAWEI)</a>, <a herf="https://scholar.google.com/citations?user=1neVsLcAAAAJ&hl=en&oi=ao">Prof. Hua-Xin Peng(Zhejiang University)</a> and I couldn't appreciate to being a research Intern twice at <a herf="https://environ-chem.lab.westlake.edu.cn/index.htm">Analysis and Degradation of Emerging Contaminants Lab</a> at Westlake University supervised by <a herf="https://scholar.google.com/citations?user=PNVFltwAAAAJ&hl=en&oi=ao">Prof. Yanyan Zhang(Westlake University)</a> and collabrated with <a herf="https://scholar.google.com/citations?user=zQckibQAAAAJ&hl=en">Prof. Ye Huang(East China Normal University)</a>. I couldn’t appreciate their invaluable insights and support more.
+                    </p> -->
+                </section>
+
+                <!-- Work and Education Section -->
+                <section class="section" id="work-education">
+                    <h2 class="section-title" data-en="Education and Work" data-zh="教育经历与工作经历">Education and Work</h2>
+                    <div class="section-content">
+                        <div class="timeline-item">
+                            <h3 class="item-title" data-en="Research Intern" data-zh="研究实习生">Research Intern</h3>
+                            <p class="item-organization" data-en="Shenzhen InnoX Academy" data-zh="深圳科创学院">Shenzhen InnoX Academy</p>
+                            <p class="item-date" data-en="2025.09 - 2026.01" data-zh="2025年9月 - 2026年01月">2025.09 - 2026.01</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3 class="item-title" data-en="Research Assistant" data-zh="研究助理">Research Assistant</h3>
+                            <p class="item-organization" data-en="Aracdia Impact" data-zh="Aracdia Impact">Aracdia Impact</p>
+                            <p class="item-date" data-en="2025.06 – 2025.10" data-zh="2025年6月 – 2025年10月">2025.06 – 2025.10</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3 class="item-title" data-en="Visiting Student" data-zh="访问学生">Visiting Student</h3>
+                            <p class="item-organization" data-en="Quantum Molecular Dynamics Summer School<br>CSST Galactic Science Summer School<br>Peking University" data-zh="量子分子动力学暑期学校<br>CSST星系科学暑期学校<br>北京大学">Quantum Molecular Dynamics Summer School<br>CSST Galactic Science Summer School<br>Peking University</p>
+                            <p class="item-date" data-en="2025.07" data-zh="2025年7月">2025.07</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3 class="item-title" data-en="Visiting Student" data-zh="访问学生">Visiting Student</h3>
+                            <p class="item-organization" data-en="Chiral Matter Science Summer School<br>Shanghai Institute of Origanic Chemistry, Chinese Academy of Sciences" data-zh="手性物质科学暑期学校<br>中国科学院上海有机化学研究所">Chiral Matter Science Summer School<br>Shanghai Institute of Origanic Chemistry, Chinese Academy of Sciences</p>
+                            <p class="item-date" data-en="2025.08" data-zh="2025年8月">2025.08</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3 class="item-title" data-en="Visiting student" data-zh="访问学生">Visiting student</h3>
+                            <p class="item-organization" data-en="Astro Chemistry Summer School<br>Xiamen University" data-zh="天体化学暑期学校<br>厦门大学">Astro Chemistry Summer School<br>Xiamen University</p>
+                            <p class="item-date" data-en="2025.07" data-zh="2025年7月">2025.07</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3 class="item-title" data-en="Frontend Engineering(part-time)" data-zh="前端工程师(兼职)">Frontend Engineering(part-time)</h3>
+                            <p class="item-organization" data-en="Nuoxun Technical Co. Lt" data-zh="诺讯网络科技有限公司">Nuoxun Technical Co. Lt</p>
+                            <p class="item-date" data-en="2025.03 – 2025.09" data-zh="2025年3月 – 2025年9月">2025.3 – 2025.09</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3 class="item-title" data-en="Visiting Student" data-zh="访问学生">Visiting Student</h3>
+                            <p class="item-organization" data-en="Large Language Model Summer School<br>Shanghai AI Laboratory" data-zh="大语言模型暑期学校<br>上海人工智能实验室">Large Language Model Summer School<br>Shanghai AI Laboratory</p>
+                            <p class="item-date" data-en="2024.06" data-zh="2024年6月">2024.06</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3 class="item-title" data-en="Frontend Engineering(full-time)" data-zh="前端工程师(全职)">Frontend Engineering(full-time)</h3>
+                            <p class="item-organization" data-en="Nuoxun Technical Co. Lt" data-zh="诺讯网络科技有限公司">Nuoxun Technical Co. Lt</p>
+                            <p class="item-date" data-en="2023.12 – 2025.03" data-zh="2023年12月 – 2025年3月">2023.12 – 2025.03</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3 class="item-title" data-en="B.Eng in Chemical Engineering" data-zh="化学工程工学学位">B.Eng in Chemical Engineering</h3>
+                            <p class="item-organization" data-en="Inner Mongolia University" data-zh="内蒙古大学">Inner Mongolia University</p>
+                            <p class="item-date" data-en="2022.08 – present" data-zh="2022年8月至今">2022.08 – present</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Research Highlights Section -->
+                <section class="section" id="research-highlights">
+                    <h2 class="section-title" data-en="Highlights" data-zh="代表性工作">Highlights</h2>
+                    <div class="research-cards">
+                        <div class="research-card">
+                            <h3 class="card-title">Integrating Explainable Deep Learning into Project-Based Learning: Optimizing Dimethyl Sulfide Tubular Reactors as a Case Study.</h3>
+                            <p class="card-authors">Yuze Hao, Kai Hou, Rui-Rui Shi, Xiang Li , <strong>Lan Duo</strong> and Changyan Li†</p>
+                            <p class="card-journal">
+                                <i>Under-review</i> 2026 
+                                <span class="card-buttons">
+                                    <!-- <a href="https://drugclip.com/index" target="_blank" class="card-button" data-en="Demo" data-zh="Demo">Demo</a> -->
+                                    <a href="https://github.com/YuzeHao2023/Deep-DMS-Reactor" target="_blank" class="card-button" data-en="GitHub" data-zh="GitHub">GitHub</a>
+                                    <!-- <a href="https://doi.org/10.1126/science.ads9530" target="_blank" class="card-button" data-en="Paper" data-zh="Paper">Paper</a> -->
+                                </span>
+                            </p>
+                            <div class="card-image">
+                                <img src="images/research1.png" alt="Research Image 1">
+                            </div>
+                        </div>
+                        <!-- <div class="research-card">
+                            <h3 class="card-title">Revealing the role of magnesium in achieving superior SiC–Al interfacial bonding via in-situ TEM observation</h3>
+                            <p class="card-authors">Chen-Wei Liu, Jianchao Li, Tianzi Wang, Cheng Liu, <strong>Yuze Hao</strong>, Huan Wang, Xiang Gao†, Yandong Jia† & Hua-Xin Peng†</p>
+                            <p class="card-journal">
+                                <i>Materials Research Letters</i> 2026 
+                                <span class="card-buttons">
+                                    <a href="https://github.com/MuZhao2333/MolFLAE" target="_blank" class="card-button" data-en="GitHub" data-zh="GitHub">GitHub</a> -->
+                                    <!-- <a href="https://doi.org/10.1080/21663831.2026.2613098" target="_blank" class="card-button" data-en="Paper" data-zh="Paper">Paper</a>
+                                </span>
+                            </p>
+                            <div class="card-image">
+                                <img src="images/research2.png" alt="Research Image 2">
+                            </div> --> 
+                        </div>
+                        <div class="research-card">
+                            <h3 class="card-title">Accelerated Photocatalytic C–C Coupling via Interpretable Deep Learning: Single-Crystal Perovskite Catalyst Design using First-Principles Calculations</h3>
+                            <p class="card-authors"><strong>Lan Duo, Yuze Hao†</strong></p>
+                            <p class="card-journal">
+                                <i>AI for Accelerated Materials Design-ICLR</i> 2025
+                                <span class="card-buttons">
+                                    <!-- <a href="https://github.com/MuZhao2333/MolFLAE" target="_blank" class="card-button" data-en="GitHub" data-zh="GitHub">GitHub</a> -->
+                                    <a href="https://iclr.cc/virtual/2025/10000076" target="_blank" class="card-button" data-en="Paper" data-zh="Paper">Paper</a>
+                                </span>
+                            </p>
+                            <div class="card-image">
+                                <img src="images/research3.png" alt="Research Image 3">
+                            </div>
+                        </div>
+                        <div class="research-card">
+                            <h3 class="card-title">Comment on "predictions of groundwater pfas occurrence at drinking water supply depths in the united states" by andrea k. tokranov et al, science386, 748-755 (2024).”</h3>
+                            <p class="card-authors"><strong>Yuze Hao†, Lan Duo</strong></p>
+                            <p class="card-journal">
+                                <i>Science</i> 2024 
+                                <span class="card-buttons">
+                                    <a href="https://github.com/YuzeHao2023/PFAS-ML" target="_blank" class="card-button" data-en="GitHub" data-zh="GitHub">GitHub</a>
+                                    <a href="https://www.science.org/doi/10.1126/science.ado6638" target="_blank" class="card-button" data-en="Paper" data-zh="Paper">Paper</a>
+                                </span>
+                            </p>
+                            <div class="card-image">
+                                <img src="images/research4.png" alt="Research Image 4">
+                            </div>
+                        </div>
+                        <div class="research-card">
+                            <h3 class="card-title">daily-arxiv-AI4Science</h3>
+                            <p class="card-authors"><strong>Lan Duo</strong>, Yuze Hao and Lixue Cheng†</p>
+                            <p class="card-journal">
+                                <i>Github Open-Source Project</i> 2026 
+                                <span class="card-buttons">
+                                    <a href="https://github.com/YuzeHao2023/daily-arxiv-AI4Science" target="_blank" class="card-button" data-en="GitHub" data-zh="GitHub">GitHub</a>
+                                    <!-- <a href="https://doi.org/10.1080/21663831.2026.2613098" target="_blank" class="card-button" data-en="Paper" data-zh="Paper">Paper</a> -->
+                                </span>
+                            </p>
+                            <div class="card-image">
+                                <img src="images/research5.png" alt="Research Image 5">
+                            </div>
+                        </div>
+                        <div class="research-card">
+                            <h3 class="card-title">Awesome-MCP-Servers</h3>
+                            <p class="card-authors"><strong>Lan Duo</strong>, Yuze Hao, Xinyue Huang and all contributors</p>
+                            <p class="card-journal">
+                                <i>Github Open-Source Project</i> 2024
+                                <span class="card-buttons">
+                                    <a href="https://github.com/YuzeHao2023/Awesome-MCP-Servers" target="_blank" class="card-button" data-en="GitHub" data-zh="GitHub">GitHub</a>
+                                    <!-- <a href="https://doi.org/10.1080/21663831.2026.2613098" target="_blank" class="card-button" data-en="Paper" data-zh="Paper">Paper</a> -->
+                                </span>
+                            </p>
+                            <div class="card-image">
+                                <img src="images/research6.png" alt="Research Image 6">
+                            </div>
+                        </div>
+                        <div class="research-card">
+                            <h3 class="card-title">Autonomous materials synthesis laboratories: Integrating artificial intelligence with advanced robotics for accelerated discovery</h3>
+                            <p class="card-authors"><strong>Lan Duo</strong>, Yuze Hao, Jinlu He</p>
+                            <p class="card-journal">
+                                <i>Chemrxiv</i> 2025
+                                <span class="card-buttons">
+                                    <!-- <a href="https://github.com/YuzeHao2023/Awesome-MCP-Servers" target="_blank" class="card-button" data-en="GitHub" data-zh="GitHub">GitHub</a> -->
+                                    <a href="https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-fk3r7-v2?download=true&redirectToLatest=false" target="_blank" class="card-button" data-en="Paper" data-zh="Paper">Paper</a>
+                                </span>
+                            </p>
+                            <div class="card-image">
+                                <img src="images/research8.png" alt="Research Image 6">
+                            </div>
+                        </div>
+                        <div class="research-card">
+                            <h3 class="card-title">Frontier ai safety confidence evaluate</h3>
+                            <p class="card-authors">Steven Bart, Zepeng Wu, YE Rachmad, Yuze Hao, <strong>Lan Duo</strong>, Xiang Zhang(<strong>Co-first Author</strong>)</p>
+                            <p class="card-journal">
+                                <i>ICML 2025 New in ML Workshop</i>  
+                                <span class="card-buttons">
+                                    <a href="https://github.com/YuzeHao2023/DelhiLM" target="_blank" class="card-button" data-en="GitHub" data-zh="GitHub">GitHub</a>
+                                    <a href="https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/68bbf625728bf9025ebb3dcc/original/frontier-ai-safety-confidence-evaluate.pdf" target="_blank" class="card-button" data-en="Paper" data-zh="Paper">Paper</a>
+                                </span>
+                            </p>
+                            <div class="card-image">
+                                <img src="images/research7.png" alt="Research Image 7">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
